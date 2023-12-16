@@ -1,0 +1,193 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset css padding dll */
+
+body{
+    font: 16px/28px verdana,sans-serif;
+    background-color: #333335 ;
+    color: tomato;
+    background-image: url(../../Asset/gambar9.png);
+    background-size: 500px;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: #153254;
+}
+
+.header{
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul{
+    font-size: 40px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+
+.header a{
+    text-decoration:none;
+    color: #dfb0a5;
+    padding: 4px;
+}
+
+.header a:hover{
+    background-color: #ff054c;
+    color:#342752;
+}
+
+.hero{
+   height: 400px;
+  background-image: url(Hero.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    border-top: 5px solid #342752;
+    border-bottom: 5px solid #342752;
+}
+
+.main{
+    width: 600px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.main h2{
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+.main .penulis{
+    font-size: 11px;
+    margin-top: -8px;
+}
+
+.main .penulis a{
+    text-decoration: none;
+    color: #33ff00;
+}
+
+.main .penulis a:hover{
+    background-color: #a60201;
+    color:white;
+}
+
+.main p{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* sidebar */
+.sidebar{
+    width: 300px;
+    float: right;   
+    padding: 20px;
+}
+
+.sidebar h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: white;
+    background-color:#a60201;
+}
+.sidebar img{
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p{
+    color: white;
+   font: 12px/18px verdana;
+   text-align: justify;
+}
+
+
+.footer{
+    background-color: #342752;
+    padding: 10px;
+}
+
+.footer .copy{
+    color: seashell;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.sidebar{
+   float: right;
+}
+    
+
+
+
+
+
+/* clear fix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
